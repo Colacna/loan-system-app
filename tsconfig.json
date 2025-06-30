@@ -13,12 +13,12 @@
     "noEmit": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "baseUrl": ".",                    // ✅ 경로 기준 설정
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]                   // ✅ @ 별칭으로 루트부터 import 가능하게 설정
+      "@/*": ["./*"],
+      "@components/*": ["components/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
-
