@@ -13,9 +13,9 @@
     "noEmit": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "baseUrl": ".",                     // 경로 기준 설정
-    "paths": {
-      "@/*": ["./*"]                    // '@/components/...' 같은 별칭 경로 사용 가능
+    "baseUrl": ".",                          // ✅ 추가
+    "paths": {                               // ✅ 추가
+      "@/*": ["./*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
